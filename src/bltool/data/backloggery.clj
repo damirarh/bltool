@@ -170,7 +170,7 @@
 
 (defn- add-game [cookies game]
   (let [user (:bl-name *opts*)
-        defaults {"comp" "" "orig_console" "" "region" "0" "own" "1"
+        defaults {"comp" "" "orig_console" "" "region" "2" "own" "1"
                   "achieve1" "" "achieve2" "" "online" "" "note" ""
                   "rating" "8" "submit2" "Stealth Add" "wishlist" "0"}
         params (conj defaults
